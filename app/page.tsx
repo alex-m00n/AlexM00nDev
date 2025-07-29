@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
         <center>
-          <Image src={'/animated.gif'} alt="a" width={250} height={250} className="rounded-full animate-spin" />
+          <Image src={'/animated.gif'} alt="a" width={225} height={225} className="rounded-full animate-spin" />
 
           <h1>Bienvenue sur mon site <span className="hover:underline">alexm00n.dev</span></h1>
         </center>

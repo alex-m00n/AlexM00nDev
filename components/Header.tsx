@@ -92,6 +92,7 @@ export default function Header() {
                 <MenuMobile />
             </div>
         </div>
+        <div className="fixed w-full z-20 bg-background top-0 left-0 right-0 flex h-12"></div>
     </div>
     );
   }
