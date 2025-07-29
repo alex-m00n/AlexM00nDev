@@ -11,7 +11,7 @@ const IbmPlexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "alexm00n.dev 🌙",
+  title: "Accueil | alexm00n.dev 🌙",
   description: "Le site d'AlexM00n",
 };
 
