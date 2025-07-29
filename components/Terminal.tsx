@@ -21,14 +21,16 @@ function generateUUID() {
 }
 
 export default function Terminal() {
+  // On retire le ascii art de l'initialisation des lignes, il sera affiché dans le rendu selon la taille d'écran
   const asciiArtAlexM00n = ` _____ _____ _____ _____ _____ _____ _____ _____
 || A ||| l ||| e ||| x ||| M ||| 0 ||| 0 ||| n ||
 ||___|||___|||___|||___|||___|||___|||___|||___||
 |/___\\|/___\\|/___\\|/___\\|/___\\|/___\\|/___\\|/___\\|`;
 
+  // On retire le ascii art de la liste initiale
   const [lines, setLines] = useState<Line[]>([
     { id: generateUUID(), type: "output", text: "alexm00n.exe [version 1.0.0]" },
-    { id: generateUUID(), type: "output", text: asciiArtAlexM00n + "\n" },
+    // asciiArtAlexM00n n'est plus ici
     { id: generateUUID(), type: "output", text: "C:\\alexm00n> help" },
     { id: generateUUID(), type: "output", text: "Commandes disponibles : about[/about], projects[/projects], contact[/contact], help[affiche les commandes du terminal], clear[efface le terminal]" },
   ]);
@@ -98,7 +100,6 @@ export default function Terminal() {
     loadingLineIdRef.current = null;
   };
 
-
   const handleCommand = async () => {
     const trimmed = input.trim();
     const command = trimmed.toLowerCase();
@@ -136,7 +137,7 @@ export default function Terminal() {
       clear: async () => {
         setLines([
           { id: generateUUID(), type: "output", text: "alexm00n.exe [version 1.0.0]" },
-          { id: generateUUID(), type: "output", text: asciiArtAlexM00n + "\n" },
+          // asciiArtAlexM00n n'est plus ici non plus
           { id: generateUUID(), type: "output", text: "C:\\alexm00n> help" },
           { id: generateUUID(), type: "output", text: "Commandes disponibles : about[/about], projects[/projects], contact[/contact], help[affiche les commandes du terminal], clear[efface le terminal]" },
         ]);
@@ -167,6 +168,10 @@ export default function Terminal() {
       </div>
 
       <div className="p-4 whitespace-pre-wrap min-h-[200px]">
+        {/* Affichage du ascii art uniquement en sm ou plus */}
+        <div className="hidden sm:block mb-2">
+          <pre className="text-green-400">{asciiArtAlexM00n}</pre>
+        </div>
         {lines.map((line, index) => {
           const isLast = index === lines.length - 1;
 
