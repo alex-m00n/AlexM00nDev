@@ -1,4 +1,4 @@
-import { Bot, Code2, Tag, Tags } from "lucide-react";
+import { Bot, Code2, Tag, Tags, AppWindow } from "lucide-react";
 
 export default async function Projects() {
     return (
@@ -215,6 +215,51 @@ export default async function Projects() {
                                 />
                             </div>
 
+                        </div>
+                    </a>
+                    <a
+                        href="https://github.com/alex-m00n/Spotag"
+                        target="_blank"
+                        className="flex flex-col h-full z-10"
+                    >
+                        <div
+                            className="relative bg-gradient-to-br from-[#3776AB]/80 via-background to-green-400/40 border-2 border-[color-mix(in_srgb,#3776AB_40%,transparent)] rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 flex flex-col justify-between shadow-2xl transition-all duration-300 overflow-hidden w-full h-full max-h-[520px] mx-auto lg:hover:scale-105"
+                            style={{ willChange: "transform" }}
+                        >
+                            <span
+                                className="absolute -top-8 -left-8 w-24 h-24 sm:w-32 sm:h-32 rounded-full blur-2xl opacity-60 transition-opacity duration-300"
+                                style={{ background: "color-mix(in_srgb,#3776AB_20%,transparent)" }}
+                            ></span>
+
+                            <div className="flex items-center gap-3 sm:gap-4">
+                                <div className="rounded-full bg-gradient-to-tr from-secondary via-green-400 to-[#3776AB] flex items-center justify-center h-14 w-14 sm:h-20 sm:w-20 shadow-lg border-4 border-white/20">
+                                    <AppWindow size={40} className="text-white drop-shadow sm:hidden" />
+                                    <AppWindow size={56} className="text-white drop-shadow hidden sm:block" />
+                                </div>
+                                <h2 className="text-xl sm:text-2xl font-bold" style={{ color: "#3776AB", textShadow: "0 2px 8px #3776AB" }}>
+                                    Spotag
+                                </h2>
+                            </div>
+                            <div className="mt-4 sm:mt-6 flex-1">
+                                <p
+                                    className="text-sm sm:text-base mb-2 flex items-center gap-2"
+                                    style={{ color: "#3776AB" }}
+                                >
+                                    <Tags className="inline" style={{ color: "#3776AB" }} />
+                                    <span className="hover:underline transition-colors duration-200">Python</span>,
+                                    <span className="hover:underline transition-colors duration-200">Flask</span>,
+                                    <span className="hover:underline transition-colors duration-200">tkinter</span>
+                                </p>
+                                <ul className="list-inside text-sm sm:text-base space-y-1 pl-2">
+                                    <li>🐍 Application Python</li>
+                                    <li>🌐 Crée un serveur local (Flask)</li>
+                                    <li>🔗 Convertisseur d'URL</li>
+                                    <li>🪄 Scanne un tag NFC avec ton téléphone et ouvre le avec ton PC</li>
+                                </ul>
+                                <span className="italic text-xs mt-4 block">
+                                    Une app en python .exe quoi
+                                </span>
+                            </div>
                         </div>
                     </a>
                 </div>

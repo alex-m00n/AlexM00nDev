@@ -130,7 +130,7 @@ export default async function About() {
                     </span>
                     <div className="flex gap-x-3 mt-2">
                         <a
-                            href="https://discord.gg/"
+                            href="https://discord.com/users/916694024973340672"
                             target="_blank"
                             className="hover:underline text-primary hover:text-tertiary"
                         >*Discord*</a>
