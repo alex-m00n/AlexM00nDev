@@ -24,7 +24,7 @@ export default async function Projects() {
                         className="flex flex-col h-full z-10"
                     >
                         <div
-                            className="relative bg-gradient-to-br from-primary/70 via-background to-tertiary/40 border-2 border-[color-mix(in_srgb,var(--tertiary)_40%,transparent)] rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 flex flex-col justify-between shadow-2xl transition-all duration-300 overflow-hidden w-full h-full max-h-[520px] mx-auto lg:hover:scale-105"
+                            className="relative bg-gradient-to-br from-primary-500 via-background to-tertiary/40 border-2 border-[color-mix(in_srgb,var(--tertiary)_40%,transparent)] rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 flex flex-col justify-between shadow-2xl transition-all duration-300 overflow-hidden w-full h-full max-h-[520px] mx-auto lg:hover:scale-105"
                             style={{ willChange: "transform" }}
                         >
                             <span
@@ -75,7 +75,7 @@ export default async function Projects() {
                         className="flex flex-col h-full z-10"
                     >
                         <div
-                            className="relative bg-gradient-to-br from-primary/70 via-background to-primary/40 border-2 border-[color-mix(in_srgb,var(--primary)_40%,transparent)] rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 flex flex-col justify-between shadow-2xl transition-all duration-300 overflow-hidden w-full h-full max-h-[520px] mx-auto lg:hover:scale-105"
+                            className="relative bg-gradient-to-br from-primary-500 via-background to-primary/40 border-2 border-[color-mix(in_srgb,var(--primary)_40%,transparent)] rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 flex flex-col justify-between shadow-2xl transition-all duration-300 overflow-hidden w-full h-full max-h-[520px] mx-auto lg:hover:scale-105"
                             style={{ willChange: "transform" }}
                         >
                             <span
@@ -121,7 +121,7 @@ export default async function Projects() {
                         className="flex flex-col h-full z-10"
                     >
                         <div
-                            className="relative bg-gradient-to-br from-primary/70 via-background to-tertiary/40 border-2 border-[color-mix(in_srgb,var(--tertiary)_40%,transparent)] rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 flex flex-col justify-between shadow-2xl transition-all duration-300 overflow-hidden w-full h-full max-h-[520px] mx-auto lg:hover:scale-105"
+                            className="relative bg-gradient-to-br from-primary-500 via-background to-tertiary/40 border-2 border-[color-mix(in_srgb,var(--tertiary)_40%,transparent)] rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 flex flex-col justify-between shadow-2xl transition-all duration-300 overflow-hidden w-full h-full max-h-[520px] mx-auto lg:hover:scale-105"
                             style={{ willChange: "transform" }}
                         >
                             <span
@@ -172,7 +172,7 @@ export default async function Projects() {
                         className="flex flex-col h-full z-10"
                     >
                         <div
-                            className="relative bg-gradient-to-br from-primary/70 via-background to-tertiary/40 border-2 border-[color-mix(in_srgb,var(--tertiary)_40%,transparent)] rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 flex flex-col justify-between shadow-2xl transition-all duration-300 overflow-hidden w-full h-full max-h-[520px] mx-auto lg:hover:scale-105"
+                            className="relative bg-gradient-to-br from-primary-500 via-background to-tertiary/40 border-2 border-[color-mix(in_srgb,var(--tertiary)_40%,transparent)] rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 flex flex-col justify-between shadow-2xl transition-all duration-300 overflow-hidden w-full h-full max-h-[520px] mx-auto lg:hover:scale-105"
                             style={{ willChange: "transform" }}
                         >
                             <span
