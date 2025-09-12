@@ -1,13 +1,14 @@
 import { Bot, Code2, Tag, Tags, AppWindow } from "lucide-react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Mes Projets | alexm00n.dev 🌙",
+  description: "Les projets d'AlexM00n",
+};
 
 export default async function Projects() {
     return (
-
         <>
-            <head>
-                <title>Mes Projets | alexm00n.dev 🌙</title>
-                <meta name="description" content="Les projets d'AlexM00n" />
-            </head>
             <h1
                 className="text-4xl md:text-5xl font-extrabold text-center bg-gradient-to-r from-primary via-secondary to-tertiary bg-clip-text text-transparent drop-shadow-lg mb-4 animate-fade-in"
             >
@@ -24,7 +25,7 @@ export default async function Projects() {
                         className="flex flex-col h-full z-10"
                     >
                         <div
-                            className="relative bg-gradient-to-br from-primary/70 via-background to-tertiary/40 border-2 border-[color-mix(in_srgb,var(--tertiary)_40%,transparent)] rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 flex flex-col justify-between shadow-2xl transition-all duration-300 overflow-hidden w-full h-full max-h-[520px] mx-auto lg:hover:scale-105"
+                            className="relative bg-gradient-to-br from-primary-500 via-background to-tertiary-500 border-2 border-[color-mix(in_srgb,var(--tertiary)_40%,transparent)] rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 flex flex-col justify-between shadow-2xl transition-all duration-300 overflow-hidden w-full h-full max-h-[520px] mx-auto lg:hover:scale-105"
                             style={{ willChange: "transform" }}
                         >
                             <span
@@ -57,12 +58,13 @@ export default async function Projects() {
                             <div className="flex gap-2 sm:gap-3 mt-4 sm:mt-6 justify-center overflow-x-auto">
                                 <img
                                     src="/preview-alexm00ntv-dark.png"
-                                    className="preview-dark sm:h-32 rounded-xl border-2 shadow-lg transition-transform duration-200 group-lg:hover:scale-105 max-w-full border-tertiary/60 w-auto h-auto"
+
+                                    className="preview-dark sm:h-32 rounded-xl border-2 shadow-lg transition-transform duration-200 group-hover:scale-105 max-w-full border-tertiary-500 w-auto h-auto"
                                     alt="Dark preview"
                                 />
                                 <img
                                     src="/preview-alexm00ntv-light.png"
-                                    className="preview-light sm:h-32 rounded-xl border-2 shadow-lg transition-transform duration-200 group-lg:hover:scale-105 max-w-full border-tertiary/30 w-auto h-auto"
+                                    className="preview-light sm:h-32 rounded-xl border-2 shadow-lg transition-transform duration-200 group-hover:scale-105 max-w-full border-tertiary-100 w-auto h-auto"
                                     alt="Light preview"
                                 />
                             </div>
@@ -75,7 +77,7 @@ export default async function Projects() {
                         className="flex flex-col h-full z-10"
                     >
                         <div
-                            className="relative bg-gradient-to-br from-primary/70 via-background to-primary/40 border-2 border-[color-mix(in_srgb,var(--primary)_40%,transparent)] rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 flex flex-col justify-between shadow-2xl transition-all duration-300 overflow-hidden w-full h-full max-h-[520px] mx-auto lg:hover:scale-105"
+                            className="relative bg-gradient-to-br from-tertiary-500 via-background to-primary-500 border-2 border-[color-mix(in_srgb,var(--primary)_40%,transparent)] rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 flex flex-col justify-between shadow-2xl transition-all duration-300 overflow-hidden w-full h-full max-h-[520px] mx-auto lg:hover:scale-105"
                             style={{ willChange: "transform" }}
                         >
                             <span
@@ -121,7 +123,7 @@ export default async function Projects() {
                         className="flex flex-col h-full z-10"
                     >
                         <div
-                            className="relative bg-gradient-to-br from-primary/70 via-background to-tertiary/40 border-2 border-[color-mix(in_srgb,var(--tertiary)_40%,transparent)] rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 flex flex-col justify-between shadow-2xl transition-all duration-300 overflow-hidden w-full h-full max-h-[520px] mx-auto lg:hover:scale-105"
+                            className="relative bg-gradient-to-br from-primary-500 via-background to-tertiary-500 border-2 border-[color-mix(in_srgb,var(--tertiary)_40%,transparent)] rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 flex flex-col justify-between shadow-2xl transition-all duration-300 overflow-hidden w-full h-full max-h-[520px] mx-auto lg:hover:scale-105"
                             style={{ willChange: "transform" }}
                         >
                             <span
@@ -154,12 +156,13 @@ export default async function Projects() {
                             <div className="flex gap-2 sm:gap-3 mt-4 sm:mt-6 justify-center overflow-x-auto">
                                 <img
                                     src="/preview-m00nbotwebsite-dark.png"
-                                    className="preview-dark sm:h-32 rounded-xl border-2 shadow-lg transition-transform duration-200 group-hover:scale-105 max-w-full border-tertiary/60 w-auto h-auto"
+
+                                    className="preview-dark sm:h-32 rounded-xl border-2 shadow-lg transition-transform duration-200 group-hover:scale-105 max-w-full border-tertiary-500 w-auto h-auto"
                                     alt="Dark preview"
                                 />
                                 <img
                                     src="/preview-m00nbotwebsite-light.png"
-                                    className="preview-light sm:h-32 rounded-xl border-2 shadow-lg transition-transform duration-200 group-hover:scale-105 max-w-full border-tertiary/30 w-auto h-auto"
+                                    className="preview-light sm:h-32 rounded-xl border-2 shadow-lg transition-transform duration-200 group-hover:scale-105 max-w-full border-tertiary-100 w-auto h-auto"
                                     alt="Light preview"
                                 />
                             </div>
@@ -172,7 +175,7 @@ export default async function Projects() {
                         className="flex flex-col h-full z-10"
                     >
                         <div
-                            className="relative bg-gradient-to-br from-primary/70 via-background to-tertiary/40 border-2 border-[color-mix(in_srgb,var(--tertiary)_40%,transparent)] rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 flex flex-col justify-between shadow-2xl transition-all duration-300 overflow-hidden w-full h-full max-h-[520px] mx-auto lg:hover:scale-105"
+                            className="relative bg-gradient-to-br from-primary-500 via-background to-tertiary-500 border-2 border-[color-mix(in_srgb,var(--tertiary)_40%,transparent)] rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 flex flex-col justify-between shadow-2xl transition-all duration-300 overflow-hidden w-full h-full max-h-[520px] mx-auto lg:hover:scale-105"
                             style={{ willChange: "transform" }}
                         >
                             <span
@@ -205,16 +208,16 @@ export default async function Projects() {
                             <div className="flex gap-2 sm:gap-3 mt-4 sm:mt-6 justify-center overflow-x-auto">
                                 <img
                                     src="/preview-alexm00ndev-dark.png"
-                                    className="preview-dark sm:h-32 rounded-xl border-2 shadow-lg transition-transform duration-200 group-hover:scale-105 max-w-full border-tertiary/60 w-auto h-auto"
+
+                                    className="preview-dark sm:h-32 rounded-xl border-2 shadow-lg transition-transform duration-200 group-hover:scale-105 max-w-full border-tertiary-500 w-auto h-auto"
                                     alt="Dark preview"
                                 />
                                 <img
                                     src="/preview-alexm00ndev-light.png"
-                                    className="preview-light sm:h-32 rounded-xl border-2 shadow-lg transition-transform duration-200 group-hover:scale-105 max-w-full border-tertiary/30 w-auto h-auto"
+                                    className="preview-light sm:h-32 rounded-xl border-2 shadow-lg transition-transform duration-200 group-hover:scale-105 max-w-full border-tertiary-100 w-auto h-auto"
                                     alt="Light preview"
                                 />
                             </div>
-
                         </div>
                     </a>
                     <a
@@ -223,7 +226,7 @@ export default async function Projects() {
                         className="flex flex-col h-full z-10"
                     >
                         <div
-                            className="relative bg-gradient-to-br from-[#3776AB]/80 via-background to-green-400/40 border-2 border-[color-mix(in_srgb,#3776AB_40%,transparent)] rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 flex flex-col justify-between shadow-2xl transition-all duration-300 overflow-hidden w-full h-full max-h-[520px] mx-auto lg:hover:scale-105"
+                            className="relative bg-gradient-to-br from-[#3776AB]/80 via-background to-green-500 border-2 border-[color-mix(in_srgb,#3776AB_40%,transparent)] rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 flex flex-col justify-between shadow-2xl transition-all duration-300 overflow-hidden w-full h-full max-h-[520px] mx-auto lg:hover:scale-105"
                             style={{ willChange: "transform" }}
                         >
                             <span
@@ -259,6 +262,56 @@ export default async function Projects() {
                                 <span className="italic text-xs mt-4 block">
                                     Une app en python .exe quoi
                                 </span>
+                            </div>
+                        </div>
+                    </a>
+                    <a
+                        href="https://github.com/alex-m00n/AlexM00nDev"
+                        target="_blank"
+                        className="flex flex-col h-full z-10"
+                    >
+                        <div
+                            className="relative bg-gradient-to-br from-primary-500 via-background to-tertiary-500 border-2 border-[color-mix(in_srgb,var(--primary)_40%,transparent)] rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 flex flex-col justify-between shadow-2xl transition-all duration-300 overflow-hidden w-full h-full max-h-[520px] mx-auto lg:hover:scale-105"
+                            style={{ willChange: "transform" }}
+                        >
+                            <span
+                                className="absolute -top-8 -left-8 w-24 h-24 sm:w-32 sm:h-32 rounded-full blur-2xl opacity-60 transition-opacity duration-300"
+                                style={{ background: "color-mix(in_srgb,var(--tertiary)_20%,transparent)" }}
+                            ></span>
+
+                            <div className="flex items-center gap-3 sm:gap-4">
+                                <div className="rounded-full bg-gradient-to-tr from-[var(--primary)] via-[var(--tertiary)] to-[var(--tertiary)] flex items-center justify-center h-14 w-14 sm:h-20 sm:w-20 shadow-lg border-4 border-white/20">
+                                    <Code2 size={40} className="text-white drop-shadow sm:hidden" />
+                                    <Code2 size={56} className="text-white drop-shadow hidden sm:block" />
+                                </div>
+                                <h2 className="text-xl sm:text-2xl font-bold" style={{ color: "var(--tertiary)", textShadow: "0 2px 8px var(--tertiary)" }}>
+                                    Spotag
+                                </h2>
+                            </div>
+                            <div className="mt-4 sm:mt-6 flex-1">
+                                <p
+                                    className="text-sm sm:text-base mb-2 flex items-center gap-2"
+                                    style={{ color: "var(--tertiary)" }}
+                                >
+                                    <Tags className="inline text-tertiary" />
+                                    <span className="hover:underline transition-colors duration-200">Next.js</span>,
+                                    <span className="hover:underline transition-colors duration-200">Tailwind</span>
+                                </p>
+                                <p className="text-sm sm:text-base">
+                                    Juste le site de Spotag
+                                </p>
+                            </div>
+                            <div className="flex gap-2 sm:gap-3 mt-4 sm:mt-6 justify-center overflow-x-auto">
+                                <img
+                                    src="/preview-spotagwebsite-dark.png"
+                                    className="preview-dark sm:h-32 rounded-xl border-2 shadow-lg transition-transform duration-200 group-hover:scale-105 max-w-full border-tertiary-500 w-auto h-auto"
+                                    alt="Dark preview"
+                                />
+                                <img
+                                    src="/preview-spotagwebsite-light.png"
+                                    className="preview-light sm:h-32 rounded-xl border-2 shadow-lg transition-transform duration-200 group-hover:scale-105 max-w-full border-tertiary-100 w-auto h-auto"
+                                    alt="Light preview"
+                                />
                             </div>
                         </div>
                     </a>

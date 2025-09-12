@@ -1,4 +1,10 @@
 import { Heart, Laptop } from "lucide-react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "À propos | alexm00n.dev 🌙",
+  description: "En savoir plus sur AlexM00n",
+};
 
 function AgeApropos() {
     const bDateEnv = process.env.BDate;
@@ -44,10 +50,6 @@ function AgeApropos() {
 export default async function About() {
     return (
         <>
-            <head>
-                <title>À propos | alexm00n.dev 🌙</title>
-                <meta name="description" content="En savoir plus sur AlexM00n" />
-            </head>
             <style>
                 {`
                 .bento-card {

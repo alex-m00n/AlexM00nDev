@@ -1,4 +1,6 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --background: #efefef;
@@ -10,18 +12,6 @@
   --textprimary: #f472b6;
   --textsecondary: #818cf8;
   --texttertiary: #38bdf8;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-accent: var(--accent);
-  --color-primary: var(--primary);
-  --color-secondary: var(--secondary);
-  --color-tertiary: var(--tertiary);
-  --color-textprimary: var(--textprimary);
-  --color-textsecondary: var(--textsecondary);
-  --color-texttertiary: var(--texttertiary);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -37,19 +27,19 @@
     --texttertiary: #bae6fd;
   }
   .preview-dark {
-    display : flex
+    display: flex;
   }
   .preview-light {
-    display : none
+    display: none;
   }
 }
 
 @media (prefers-color-scheme: light) {
   .preview-dark {
-    display : none
+    display: none;
   }
   .preview-light {
-    display : flex
+    display: flex;
   }
 }
 
@@ -59,9 +49,7 @@ body {
 }
 
 @layer base {
-
   h1 {
     @apply text-2xl font-bold;
   }
-
 }

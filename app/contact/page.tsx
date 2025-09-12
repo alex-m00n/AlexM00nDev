@@ -72,10 +72,6 @@ export default function ContactPage() {
 
   return (
     <>
-      <head>
-        <title>Me contacter | alexm00n.dev 🌙</title>
-        <meta name="description" content="Contacter AlexM00n" />
-      </head>
       <div className="max-w-4xl mx-auto px-4 pb-8">
         {showToast && (
           <Toast
